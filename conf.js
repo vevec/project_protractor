@@ -9,7 +9,7 @@ exports.config = {
     framework: 'jasmine',
 
     onPrepare:function() {
-        // set browser size...
+
         browser.manage().window().maximize();
 
         // better jasmine 2 reports...
