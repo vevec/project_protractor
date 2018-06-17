@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/vevec/project_protractor/issues"
   },
-  "homepage": "https://github.com/vevec/project_protractor#readme"
+  "homepage": "https://github.com/vevec/project_protractor#readme",
+  "dependencies": {
+    "jasmine-spec-reporter": "^4.2.1"
+  }
 }
