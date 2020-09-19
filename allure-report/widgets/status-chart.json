@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a7fce946bbcaacd2",
+  "name" : "test spec for home page",
+  "time" : {
+    "start" : 1600552737765,
+    "stop" : 1600552740930,
+    "duration" : 3165
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Test Suite for banking application",
+    "children" : [ {
+      "name" : "test spec for home page",
+      "uid" : "a7fce946bbcaacd2",
+      "parentUid" : "19a05e85b7f6a0d5e7e052bb4d730867",
+      "status" : "failed",
+      "time" : {
+        "start" : 1600552737765,
+        "stop" : 1600552740930,
+        "duration" : 3165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "19a05e85b7f6a0d5e7e052bb4d730867"
+  } ]
+}

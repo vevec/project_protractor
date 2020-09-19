@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sat Sep 19 22:58:57 BST 2020","Sat Sep 19 22:59:00 BST 2020","3165","","Test Suite for banking application","","Test Suite for banking application","test spec for home page","test spec for home page",""

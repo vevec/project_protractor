@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: No element found using locator: By(xpath, //a[text()=\"Sign In\"])",
+      "children" : [ {
+        "name" : "test spec for home page",
+        "uid" : "a7fce946bbcaacd2",
+        "parentUid" : "c28b2ceee4e1dd2252f56f1a7e9d30c6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600552737765,
+          "stop" : 1600552740930,
+          "duration" : 3165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c28b2ceee4e1dd2252f56f1a7e9d30c6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
