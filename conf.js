@@ -5,15 +5,17 @@ exports.config = {
 
     specs: ['specFiles/*.spec.js'],
     //baseUrl: 'https://angularjs.org/',
-    framework: 'jasmine',
+    framework: 'jasmine2',
 
     onPrepare:function() {
         // set browser size...
         browser.manage().window().maximize();
 
-        // better jasmine 2 reports...
-        const SpecReporter = require('jasmine-spec-reporter');
-        jasmine.getEnv().addReporter(new SpecReporter({displayStacktrace: 'specs'}));
+        var AllureReporter = require('jasmine-allure-reporter');
+        jasmine.getEnv().addReporter(new AllureReporter({
+          resultsDir: 'allure-results'
+        }));
+
     },
 
     capabilities: {
@@ -34,6 +36,7 @@ exports.config = {
                 'credentials_enable_service': false,
                 'password_manager_enabled': false
             }
+            
         }
     },
 
